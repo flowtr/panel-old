@@ -1,0 +1,34 @@
+{
+  "name": "panel",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "QEMU, LXC & Docker management panel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowtr/panel.git"
+  },
+  "keywords": [],
+  "author": "Flowtr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flowtr/panel/issues"
+  },
+  "homepage": "https://github.com/flowtr/panel#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@prisma/client": "^4.11.0",
+    "@types/node": "^18.15.0",
+    "fastify": "^4.14.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.11.0"
+  }
+}
