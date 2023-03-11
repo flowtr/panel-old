@@ -21,9 +21,12 @@
   "homepage": "https://github.com/flowtr/panel#readme",
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
+    "@fastify/autoload": "^5.7.1",
     "@prisma/client": "^4.11.0",
     "@types/node": "^18.15.0",
     "fastify": "^4.14.1",
+    "fastify-autoload": "^3.13.0",
+    "fastify-plugin": "^4.5.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5",
     "uuid": "^9.0.0"
